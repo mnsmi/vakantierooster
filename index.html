@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vakantierooster</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+  <link rel="icon" href="">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto 30px auto;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #333;
+      text-align: center;
+      padding: 12px;
+      width: 100px;
+      height: 60px;
+    }
+    th {
+      background-color: #fff;
+      font-weight: bold;
+    }
+    td:first-child,
+    th:first-child {
+      font-weight: bold;
+      background-color: #fff;
+    }
+
+    .zaltbommel {
+      background-color: #fffbc1;
+    }
+    .hordijk {
+      background-color: #ffd6d6;
+    }
+    .piesendorf {
+      background-color: #efd9f6;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #aaa;
+    }
+
+    .zaltbommel-color {
+      background-color: #fffbc1;
+    }
+
+    .hordijk-color {
+      background-color: #ffd6d6;
+    }
+
+    .piesendorf-color {
+      background-color: #efd9f6;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vakantierooster Zomer 2025</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>W29<br>14 – 19 jul</th>
+        <th>W30<br>21 – 26 jul</th>
+        <th>W31<br>28 jul – 2 aug</th>
+        <th>W32<br>4 – 9 aug</th>
+        <th>W33<br>11 – 16 aug</th>
+        <th>W34<br>18 – 23 aug</th>
+        <th>W35<br>25 – 30 aug</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maandag</td>
+        <td class="zaltbommel">14</td>
+        <td class="zaltbommel">21</td>
+        <td>28</td>
+        <td class="piesendorf">4</td>
+        <td class="piesendorf">11</td>
+        <td>18</td>
+        <td class="zaltbommel">25</td>
+      </tr>
+      <tr>
+        <td>Dinsdag</td>
+        <td class="zaltbommel">15</td>
+        <td class="zaltbommel">22</td>
+        <td>29</td>
+        <td class="piesendorf">5</td>
+        <td class="piesendorf">12</td>
+        <td>19</td>
+        <td class="zaltbommel">26</td>
+      </tr>
+      <tr>
+        <td>Woensdag</td>
+        <td class="zaltbommel">16</td>
+        <td class="zaltbommel">23</td>
+        <td>30</td>
+        <td class="piesendorf">6</td>
+        <td class="piesendorf">13</td>
+        <td>20</td>
+        <td class="zaltbommel">27</td>
+      </tr>
+      <tr>
+        <td>Donderdag</td>
+        <td class="zaltbommel">17</td>
+        <td class="zaltbommel">24</td>
+        <td>31</td>
+        <td class="piesendorf">7</td>
+        <td class="piesendorf">14</td>
+        <td>21</td>
+        <td class="zaltbommel">28</td>
+      </tr>
+      <tr>
+        <td>Vrijdag</td>
+        <td class="zaltbommel">18</td>
+        <td class="zaltbommel">25</td>
+        <td class="piesendorf">1</td>
+        <td class="piesendorf">8</td>
+        <td class="piesendorf">15</td>
+        <td>22</td>
+        <td class="zaltbommel">29</td>
+      </tr>
+      <tr>
+        <td>Zaterdag</td>
+        <td class="hordijk">19</td>
+        <td class="hordijk">26</td>
+        <td class="piesendorf">2</td>
+        <td class="piesendorf">9</td>
+        <td class="hordijk">16</td>
+        <td class="hordijk">23</td>
+        <td class="hordijk">30</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-color zaltbommel-color"></div> Werken Zaltbommel
+    </div>
+    <div class="legend-item">
+      <div class="legend-color hordijk-color"></div> Werken Hordijk
+    </div>
+    <div class="legend-item">
+      <div class="legend-color piesendorf-color"></div> Vakantie Piesendorf
+    </div>
+  </div>
+</body>
+</html>
